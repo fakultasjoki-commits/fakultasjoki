@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fakultas Joki — Solusi tugas kuliah cepat, aman, bebas plagiarisme. Joki skripsi, tugas harian, coding, jurnal, dan lebih banyak lagi." />
+  <title>Fakultas Joki — Solusi Tugas Kuliah Terpercaya</title>
+
+  <!-- Google Fonts: Poppins (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome untuk ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- File CSS utama -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       Sticky navbar dengan hamburger menu untuk mobile.
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="#hero" class="navbar__logo">
+  <img src="assets/logo2.png" alt="Fakultas Joki" class="logo-img">
+
+  <span class="logo-text">
+    Fakultas<span class="logo-accent">Joki</span>
+  </span>
+</a>
+
+      <!-- Menu navigasi desktop -->
+      <nav class="navbar__menu" id="navMenu" aria-label="Menu utama">
+        <ul class="navbar__links">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#layanan" class="nav-link">Layanan</a></li>
+          <li><a href="#cara-order" class="nav-link">Cara Order</a></li>
+          <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Tombol CTA + Hamburger -->
+      <div class="navbar__actions">
+        <a href="https://wa.me/6287822505381?text=Halo%20Fakultas%20Joki%2C%20saya%20ingin%20order%20tugas"
+           class="btn btn--gold" target="_blank" rel="noopener">
+          Order Sekarang
+        </a>
+        <!-- Hamburger untuk mobile -->
+        <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+       Headline utama yang menyentuh titik nyeri mahasiswa.
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <!-- Dekorasi latar belakang -->
+    <div class="hero__bg-grid" aria-hidden="true"></div>
+    <div class="hero__orb hero__orb--1" aria-hidden="true"></div>
+    <div class="hero__orb hero__orb--2" aria-hidden="true"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__badge">
+        <i class="fas fa-shield-halved"></i>
+        <span>100% Aman &amp; Terjamin Privasi</span>
+      </div>
+
+      <h1 class="hero__headline">
+        Deadline Besok?<br />
+        <span class="headline-accent">Tenang. Ada Kami.</span>
+      </h1>
+
+      <p class="hero__sub">
+        Ribuan mahasiswa sudah percayakan tugas mereka ke <strong>Fakultas Joki</strong>.
+        Pengerjaan cepat, hasil berkualitas, bebas plagiarisme — dan yang terpenting,
+        <strong>identitas kamu 100% aman</strong>.
+      </p>
+
+      <!-- Statistik kepercayaan -->
+      <div class="hero__stats">
+        <div class="stat-item">
+          <span class="stat-number">5.000+</span>
+          <span class="stat-label">Tugas Selesai</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">98%</span>
+          <span class="stat-label">Klien Puas</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">&lt;24 Jam</span>
+          <span class="stat-label">Rata-rata Selesai</span>
+        </div>
+      </div>
+
+      <!-- CTA Ganda -->
+      <div class="hero__ctas">
+        <a href="https://wa.me/6287822505381?text=Halo%2C%20saya%20mau%20konsultasi%20gratis"
+           class="btn btn--gold btn--lg" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> Konsultasi Gratis
+        </a>
+        <a href="#layanan" class="btn btn--outline btn--lg">
+          Lihat Layanan <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       KEUNGGULAN (WHY CHOOSE US)
+  ============================================================ -->
+  <section class="keunggulan section" id="keunggulan">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Kenapa Kami?</span>
+        <h2 class="section-title">Bukan Sekadar Joki Biasa</h2>
+        <p class="section-sub">Kami tidak asal kerjakan. Setiap tugas ditangani dengan standar kualitas tinggi oleh tim ahli berpengalaman di bidangnya.</p>
+      </div>
+
+      <div class="keunggulan__grid">
+
+        <div class="keunggulan__card">
+          <div class="card-icon card-icon--blue">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Pengerjaan Super Cepat</h3>
+          <p>Deadline mepet? Kami terima. Estimasi harga langsung diberikan dalam hitungan menit setelah kamu kirim soal.</p>
+        </div>
+
+        <div class="keunggulan__card">
+          <div class="card-icon card-icon--gold">
+            <i class="fas fa-user-secret"></i>
+          </div>
+          <h3>Privasi 100% Terjamin</h3>
+          <p>Identitas kamu tidak pernah kami simpan atau sebarkan. Kerahasiaan adalah harga mati bagi kami.</p>
+        </div>
+
+        <div class="keunggulan__card">
+          <div class="card-icon card-icon--blue">
+            <i class="fas fa-shield-check"></i>
+          </div>
+          <h3>Bebas Plagiarisme</h3>
+          <p>Semua hasil dikerjakan dari awal (original). Kami sediakan laporan Turnitin/Unicheck jika dibutuhkan.</p>
+        </div>
+
+        <div class="keunggulan__card">
+          <div class="card-icon card-icon--gold">
+            <i class="fas fa-rotate-left"></i>
+          </div>
+          <h3>Revisi Sampai Puas</h3>
+          <p>Tidak sesuai ekspektasi? Kami revisi tanpa biaya tambahan hingga kamu benar-benar puas dengan hasilnya.</p>
+        </div>
+
+        <div class="keunggulan__card">
+          <div class="card-icon card-icon--blue">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Dukungan 24/7</h3>
+          <p>Tim kami siap dihubungi kapan saja — tengah malam, dini hari, akhir pekan. Kami tidak pernah tidur untukmu.</p>
+        </div>
+
+        <div class="keunggulan__card">
+          <div class="card-icon card-icon--gold">
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Tim Ahli Berpengalaman</h3>
+          <p>Dikerjakan oleh mahasiswa S2/S3 dan praktisi yang sudah teruji. Bukan coba-coba, tapi sudah ratusan kali.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LAYANAN KAMI
+  ============================================================ -->
+  <section class="layanan section section--alt" id="layanan">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Layanan Kami</span>
+        <h2 class="section-title">Tugas Apapun, Kami Bisa</h2>
+        <p class="section-sub">Dari tugas harian sampai skripsi, dari esai sampai aplikasi—pilih yang kamu butuhkan sekarang.</p>
+      </div>
+
+      <div class="layanan__grid">
+
+        <!-- Kartu Layanan 1: Skripsi -->
+        <div class="layanan__card glass-card">
+          <div class="layanan__card-top">
+            <div class="layanan-icon">
+              <i class="fas fa-book-open-reader"></i>
+            </div>
+            <div class="layanan-badge layanan-badge--popular">Terpopuler</div>
+          </div>
+          <h3>Joki Skripsi &amp; Tesis</h3>
+          <p>Bantuan pengerjaan skripsi, tesis, hingga disertasi. Mulai dari BAB I sampai sidang siap.</p>
+          <ul class="layanan__features">
+            <li><i class="fas fa-check"></i> Termasuk bimbingan materi</li>
+            <li><i class="fas fa-check"></i> Cek plagiarisme disertakan</li>
+            <li><i class="fas fa-check"></i> Revisi tak terbatas</li>
+          </ul>
+          <a href="https://wa.me/6287822505381?text=Halo%2C%20saya%20butuh%20joki%20skripsi"
+             class="btn btn--gold btn--full" target="_blank" rel="noopener">
+            Pesan Sekarang
+          </a>
+        </div>
+
+        <!-- Kartu Layanan 2: Tugas Harian -->
+        <div class="layanan__card glass-card">
+          <div class="layanan__card-top">
+            <div class="layanan-icon">
+              <i class="fas fa-file-lines"></i>
+            </div>
+          </div>
+          <h3>Joki Tugas Harian</h3>
+          <p>Makalah, laporan, esai, resume kuliah, dan semua tugas kuliah rutin yang menumpuk.</p>
+          <ul class="layanan__features">
+            <li><i class="fas fa-check"></i> Selesai dalam 3–12 jam</li>
+            <li><i class="fas fa-check"></i> Format sesuai permintaan</li>
+            <li><i class="fas fa-check"></i> Harga mulai Rp 50.000</li>
+          </ul>
+          <a href="https://wa.me/6287822505381?text=Halo%2C%20saya%20butuh%20joki%20tugas%20harian"
+             class="btn btn--navy btn--full" target="_blank" rel="noopener">
+            Pesan Sekarang
+          </a>
+        </div>
+
+        <!-- Kartu Layanan 3: Coding -->
+        <div class="layanan__card glass-card">
+          <div class="layanan__card-top">
+            <div class="layanan-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="layanan-badge layanan-badge--new">Unggulan</div>
+          </div>
+          <h3>Joki Coding &amp; Pemrograman</h3>
+          <p>Python, Java, C++, PHP, Web (HTML/CSS/JS), Flutter, React, SQL — semua bisa kami handle.</p>
+          <ul class="layanan__features">
+            <li><i class="fas fa-check"></i> Termasuk laporan &amp; dokumentasi</li>
+            <li><i class="fas fa-check"></i> Kode bisa dijelaskan</li>
+            <li><i class="fas fa-check"></i> Semua bahasa pemrograman</li>
+          </ul>
+          <a href="https://wa.me/6287822505381?text=Halo%2C%20saya%20butuh%20joki%20coding"
+             class="btn btn--navy btn--full" target="_blank" rel="noopener">
+            Pesan Sekarang
+          </a>
+        </div>
+
+        <!-- Kartu Layanan 4: Jurnal/Paper -->
+        <div class="layanan__card glass-card">
+          <div class="layanan__card-top">
+            <div class="layanan-icon">
+              <i class="fas fa-newspaper"></i>
+            </div>
+          </div>
+          <h3>Joki Jurnal &amp; Paper Ilmiah</h3>
+          <p>Penulisan jurnal ilmiah, review paper, artikel konferensi, dan penulisan untuk publikasi.</p>
+          <ul class="layanan__features">
+            <li><i class="fas fa-check"></i> Standar Sinta &amp; Scopus</li>
+            <li><i class="fas fa-check"></i> Referensi terbaru</li>
+            <li><i class="fas fa-check"></i> Format APA / IEEE / dll.</li>
+          </ul>
+          <a href="https://wa.me/6287822505381?text=Halo%2C%20saya%20butuh%20joki%20jurnal"
+             class="btn btn--navy btn--full" target="_blank" rel="noopener">
+            Pesan Sekarang
+          </a>
+        </div>
+
+        <!-- Kartu Layanan 5: Presentasi -->
+        <div class="layanan__card glass-card">
+          <div class="layanan__card-top">
+            <div class="layanan-icon">
+              <i class="fas fa-display"></i>
+            </div>
+          </div>
+          <h3>Joki Presentasi &amp; PPT</h3>
+          <p>Desain slide presentasi yang menarik, informatif, dan siap dibawa ke kelas atau sidang.</p>
+          <ul class="layanan__features">
+            <li><i class="fas fa-check"></i> Desain profesional</li>
+            <li><i class="fas fa-check"></i> Format PPT / Google Slides</li>
+            <li><i class="fas fa-check"></i> Selesai dalam 6 jam</li>
+          </ul>
+          <a href="https://wa.me/6287822505381?text=Halo%2C%20saya%20butuh%20joki%20presentasi"
+             class="btn btn--navy btn--full" target="_blank" rel="noopener">
+            Pesan Sekarang
+          </a>
+        </div>
+
+        <!-- Kartu Layanan 6: Kuis/Ujian -->
+        <div class="layanan__card glass-card">
+          <div class="layanan__card-top">
+            <div class="layanan-icon">
+              <i class="fas fa-pen-to-square"></i>
+            </div>
+          </div>
+          <h3>Joki Kuis &amp; Ujian Online</h3>
+          <p>Bantu mengerjakan kuis online, ujian e-learning, dan tes berbasis platform kampus.</p>
+          <ul class="layanan__features">
+            <li><i class="fas fa-check"></i> Semua platform LMS</li>
+            <li><i class="fas fa-check"></i> Realtime saat ujian</li>
+            <li><i class="fas fa-check"></i> Nilai terjamin maksimal</li>
+          </ul>
+          <a href="https://wa.me/6287822505381?text=Halo%2C%20saya%20butuh%20joki%20ujian%20online"
+             class="btn btn--navy btn--full" target="_blank" rel="noopener">
+            Pesan Sekarang
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CARA ORDER
+  ============================================================ -->
+  <section class="cara-order section" id="cara-order">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Mudah Banget</span>
+        <h2 class="section-title">Order dalam 4 Langkah</h2>
+        <p class="section-sub">Prosesnya sederhana, cepat, dan tidak ribet. Tidak perlu daftar akun atau prosedur panjang.</p>
+      </div>
+
+      <div class="cara-order__steps">
+
+        <div class="step-item">
+          <div class="step-number">1</div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step-icon"><i class="fab fa-whatsapp"></i></div>
+          <h3>Kirim Soal &amp; Detail</h3>
+          <p>Chat kami via WhatsApp. Kirim soal, deadline, dan detail tugas yang kamu punya.</p>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">2</div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step-icon"><i class="fas fa-calculator"></i></div>
+          <h3>Estimasi Harga</h3>
+          <p>Kami berikan estimasi harga dan waktu pengerjaan. Kamu setuju, baru kami mulai.</p>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">3</div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step-icon"><i class="fas fa-gears"></i></div>
+          <h3>Proses Pengerjaan</h3>
+          <p>Tim kami langsung mengerjakan. Kamu bisa santai atau fokus ke hal lain selagi menunggu.</p>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">4</div>
+          <div class="step-connector step-connector--last" aria-hidden="true"></div>
+          <div class="step-icon"><i class="fas fa-circle-check"></i></div>
+          <h3>Tugas Selesai!</h3>
+          <p>Hasil dikirim ke kamu. Cek dulu, kalau ada yang perlu direvisi, langsung bilang!</p>
+        </div>
+
+      </div>
+
+      <div class="cara-order__cta">
+        <a href="https://wa.me/6287822505381?text=Halo%2C%20saya%20mau%20order%20tugas"
+           class="btn btn--gold btn--lg" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> Mulai Order Sekarang
+        </a>
+      </div>
+
+    </div>
+  </section>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ
+  ============================================================ -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Pertanyaan Umum</span>
+        <h2 class="section-title">Masih Ragu? Baca Dulu</h2>
+        <p class="section-sub">Kami tahu kamu punya banyak pertanyaan. Inilah jawaban jujur kami.</p>
+      </div>
+
+      <div class="faq__list" id="faqList">
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Apakah layanan ini benar-benar aman dan tidak ketahuan?</span>
+            <i class="fas fa-plus faq__icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Ya, keamanan adalah prioritas nomor satu kami. Kami tidak menyimpan data identitas kamu (nama lengkap, NIM, email kampus). Semua komunikasi bersifat pribadi. Hasil pekerjaan dikerjakan dari nol sehingga tidak ada jejak yang bisa dilacak. Ribuan klien kami sudah membuktikannya sejak kami berdiri.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Berapa lama waktu pengerjaan tugas saya?</span>
+            <i class="fas fa-plus faq__icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Tergantung jenis dan kompleksitas tugas. Tugas harian biasanya selesai dalam 3–12 jam. Coding bisa 4–24 jam. Skripsi dan jurnal perlu diskusi lebih lanjut sesuai lingkup pekerjaan. Kami selalu jujur soal estimasi waktu sebelum kamu membayar.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Apakah hasil pekerjaannya bebas plagiarisme?</span>
+            <i class="fas fa-plus faq__icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq__answer">
+            <p>100% dikerjakan dari awal (bukan copy-paste). Untuk tugas yang memerlukan, kami bisa menyertakan laporan cek plagiarisme via Turnitin atau Unicheck dengan biaya tambahan. Similaritas biasanya di bawah 15%.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Bagaimana sistem pembayarannya?</span>
+            <i class="fas fa-plus faq__icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Kami menerima transfer bank (BCA, BRI, BNI, Mandiri), GoPay, OVO, dan DANA. Sistem pembayaran menggunakan DP 50% di awal, dan pelunasan setelah tugas selesai dan kamu sudah puas. Ini berlaku juga untuk pelanggan baru.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Apakah ada revisi gratis jika hasilnya kurang sesuai?</span>
+            <i class="fas fa-plus faq__icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Tentu! Revisi gratis berlaku selama masih dalam lingkup tugas awal yang disepakati. Jika ada perubahan besar pada instruksi, kami akan mendiskusikan biaya revisi tambahan secara transparan bersamamu.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Siapa yang mengerjakan tugas saya?</span>
+            <i class="fas fa-plus faq__icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Tim kami terdiri dari mahasiswa S2/S3 aktif, fresh graduate, dan praktisi yang sudah berpengalaman di bidang masing-masing. Setiap tugas kami sesuaikan dengan joki yang memiliki keahlian relevan — bukan sembarang orang.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Apakah bisa dikerjakan untuk tugas yang sangat deadline mepet?</span>
+            <i class="fas fa-plus faq__icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Bisa! Kami memiliki layanan ekspres untuk deadline di bawah 6 jam. Ada biaya tambahan untuk layanan kilat ini, namun kami pastikan kualitas tidak dikompromikan. Chat kami segera dan kami akan cari solusi terbaik.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA SECTION (FINAL PUSH)
+  ============================================================ -->
+  <section class="cta-section section">
+    <div class="container">
+      <div class="cta-section__inner">
+        <div class="cta-section__orb" aria-hidden="true"></div>
+        <h2>Tugas Menumpuk Bukan Akhir Dunia.</h2>
+        <p>Biarkan kami yang handle. Kamu fokus ke hal yang lebih penting. <br/>Satu chat sudah cukup untuk memulai.</p>
+        <a href="https://wa.me/6287822505381?text=Halo%20Fakultas%20Joki%2C%20saya%20mau%20konsultasi"
+           class="btn btn--gold btn--lg" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> Chat WhatsApp Sekarang
+        </a>
+        <p class="cta-section__note">
+          <i class="fas fa-lock"></i> Privasi terjamin. Tidak ada data yang disimpan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div class="footer__brand">
+          <a href="#hero" class="navbar__logo footer__logo">
+  <img src="assets/logo2.png" alt="Fakultas Joki" class="footer-logo-img">
+
+  <span class="logo-text">
+    Fakultas<span class="logo-accent">Joki</span>
+  </span>
+</a>
+          <p class="footer__tagline">Solusi cerdas untuk mahasiswa yang lebih cerdas lagi.</p>
+          <div class="footer__socials">
+            <a href="#" class="social-link" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Telegram">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="TikTok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__links-group">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#cara-order">Cara Order</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links-group">
+          <h4>Layanan</h4>
+          <ul>
+            <li><a href="#">Joki Skripsi</a></li>
+            <li><a href="#">Joki Tugas Harian</a></li>
+            <li><a href="#">Joki Coding</a></li>
+            <li><a href="#">Joki Jurnal</a></li>
+            <li><a href="#">Joki Ujian Online</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links-group">
+          <h4>Kontak</h4>
+          <ul>
+            <li>
+              <a href="https://wa.me/6287822505381" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i> +62 878-2250-5381
+              </a>
+            </li>
+            <li>
+              <a href="mailto:cs@fakultasjoki.com">
+                <i class="fas fa-envelope"></i> fakultasjoki@gmail.com
+              </a>
+            </li>
+            <li>
+              <span><i class="fas fa-clock"></i> Online 24/7</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Divider -->
+      <div class="footer__divider"></div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Fakultas Joki. Hak cipta dilindungi.</p>
+        <p class="footer__disclaimer">
+          <i class="fas fa-shield-halved"></i>
+          Semua data klien bersifat rahasia dan tidak pernah disebarluaskan kepada pihak ketiga.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Tombol Scroll-to-Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Kembali ke atas">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript utama -->
+  <script src="main.js"></script>
+</body>
+</html>
